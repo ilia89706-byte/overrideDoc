@@ -1,0 +1,34 @@
+site_name: Override documentation
+site_url: https://github.io
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Включить темную тему
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black       # Меняет верхнюю панель на чисто черную
+      accent: cyan         # Неоновый цвет для ссылок и фокуса (можно поставить orange или lime)
+      toggle:
+        icon: material/brightness-4
+        name: Включить светлую тему
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+# Подключаем маленький файл с CSS-магией для полной темноты
+extra_css:
+  - stylesheets/extra.css
