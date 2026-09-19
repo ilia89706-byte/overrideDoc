@@ -21,7 +21,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -29,7 +29,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
@@ -325,6 +325,33 @@
     
   
     GameObject/Circle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FileTool/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    fileTool
   
 
     
@@ -840,7 +867,7 @@
 </span></code></pre></div></p>
 <h2 id="soundobjloadstring-pathtosound-boolean-isstream">SoundObj:load(string pathToSound, boolean isStream)</h2>
 <p>Загружает звук в оперативную память для последующей работы, если звук короткий <code>isStream</code> должен быть <code>false</code>, для добавления музыки лучше ставить <code>true</code>.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nv">mySound</span><span class="p">:</span><span class="nf">load</span><span class="p">(</span><span class="s2">&quot;music.mp3&quot;</span><span class="p">,</span><span class="kc">true</span><span class="p">)</span>
+<div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nv">mySound</span><span class="p">:</span><span class="nf">load</span><span class="p">(</span><span class="s2">"music.mp3"</span><span class="p">,</span><span class="kc">true</span><span class="p">)</span>
 </span></code></pre></div></p>
 <h2 id="soundobjunload">SoundObj:unload()</h2>
 <p>Выгружает звук из памяти освобождая место для следующего.
@@ -861,9 +888,9 @@
 <h2 id="soundobjisplaying-boolean">SoundObj:isPlaying() -&gt; boolean</h2>
 <p>Возвращает состояние звука, играет - <code>true</code> остановлен либо выгружен - <code>false</code>.
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kr">if</span><span class="w"> </span><span class="nv">mySound</span><span class="p">:</span><span class="nf">isPlaying</span><span class="p">()</span><span class="w"> </span><span class="kr">then</span>
-</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;great&quot;</span><span class="p">)</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"great"</span><span class="p">)</span>
 </span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="kr">else</span>
-</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;stopped&quot;</span><span class="p">)</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"stopped"</span><span class="p">)</span>
 </span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="kr">end</span>
 </span></code></pre></div></p>
 <h2 id="soundobjsetvolumenumber-value0-1">SoundObj:setVolume(number value(0-1))</h2>
@@ -885,12 +912,12 @@
 <h2 id="soundobjgetlength-number">SoundObj:getLength() -&gt; number</h2>
 <p>Возвращает общую длительность аудиозаписи в секундах. Для обычных звуков (isStream = false) возвращает 0.0.</p>
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">totalTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mySound</span><span class="p">:</span><span class="nf">getLength</span><span class="p">()</span>
-</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Длительность: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">totalTime</span><span class="p">)</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Длительность: "</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">totalTime</span><span class="p">)</span>
 </span></code></pre></div>
 <h2 id="soundobjgettimeplayed-number">SoundObj:getTimePlayed() -&gt; number</h2>
 <p>Возвращает текущее время воспроизведения в секундах. Для обычных звуков (isStream = false) возвращает 0.0.</p>
 <div class="language-lua highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">currentTime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mySound</span><span class="p">:</span><span class="nf">getTimePlayed</span><span class="p">()</span>
-</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Проиграно: &quot;</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">currentTime</span><span class="p">)</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Проиграно: "</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">currentTime</span><span class="p">)</span>
 </span></code></pre></div>
 
 
@@ -944,7 +971,7 @@
       <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
