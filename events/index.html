@@ -737,6 +737,33 @@
   
   
     <li class="md-nav__item">
+      <a href="../timer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    timer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../tween/" class="md-nav__link">
         
   
@@ -870,13 +897,13 @@
 </span></code></pre></div></p>
 <p><code>update</code> - вызывается при обновлении кадра каждый кадр, передаёт deltaTime в функцию.</p>
 <p><code>collide</code> - вызывается при физическом столкновении объекта, не путать с <code>aabb.collide()</code>, возвращает луа таблицу с полями(нет в 0.x.x):
-```lua
-{
-    self = userdata,
-    contactPoint = {x,y},
-    contactObjects = {GameObject1,GameObject2...},
-    contactPhase = "start/collide/ended",
-}</p>
+<div class="language-lua highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">    </span><span class="nv">self</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">userdata</span><span class="p">,</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="nv">contactPoint</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="nv">x</span><span class="p">,</span><span class="nv">y</span><span class="p">},</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="nv">contactObjects</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="nv">GameObject1</span><span class="p">,</span><span class="nv">GameObject2</span><span class="o">..</span><span class="p">.},</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="nv">contactPhase</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"start/collide/ended"</span><span class="p">,</span>
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="p">}</span>
+</span></code></pre></div></p>
 
 
 
