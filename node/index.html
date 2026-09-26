@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://github.io/build/">
+        <link rel="canonical" href="https://github.io/node/">
       
       
-        <link rel="prev" href="../globals/">
+        <link rel="prev" href="../Circle/">
       
       
-        <link rel="next" href="../A-GameObject/">
+        <link rel="next" href="../display/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Сборка вашей игры - Override Documentation</title>
+        <title>Нода GameObject/Node - Override Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#gameobjectnode" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Сборка вашей игры
+              Нода GameObject/Node
             
           </span>
         </div>
@@ -209,12 +209,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href=".." class="md-tabs__link">
           
   
@@ -251,10 +249,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../Image/" class="md-tabs__link">
           
   
@@ -324,31 +324,26 @@
       
   
   
-    
   
   
-  
     
     
     
     
-      
-        
-        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   
@@ -366,7 +361,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -441,39 +436,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15l-1.89 1.07L16 8.61l1.96-1.11zM6.04 7.5 12 10.85l1.96-1.1-5.88-3.4zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
-  
-  <span class="md-ellipsis">
-    
-  
-    Сборка игры (Билд)
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../build/" class="md-nav__link">
         
   
   
@@ -491,109 +457,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Как устроен билд?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Защита исходного кода
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Пошаговое руководство по сборке
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Пошаговое руководство по сборке">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 1: Подготовка файлов игры
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 2: Скачивание оболочки
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 3: Объединение компонентов
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 4: Запуск игры
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -729,26 +592,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
             
   
   
@@ -766,7 +634,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -901,10 +769,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../node/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -922,6 +799,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1313,97 +1191,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Как устроен билд?
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Защита исходного кода
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Пошаговое руководство по сборке
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Пошаговое руководство по сборке">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 1: Подготовка файлов игры
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 2: Скачивание оболочки
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 3: Объединение компонентов
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Шаг 4: Запуск игры
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1419,46 +1206,8 @@
 
 
 
-<h1 id="_1">Сборка и дистрибуция игры</h1>
-<p>Игровой движок <strong>Override</strong> поддерживает компиляцию и сборку готовых проектов для настольных операционных систем <strong>Windows (7+)</strong> и <strong>Linux</strong> (любые дистрибутивы с графическим окружением на базе X11 или Wayland).</p>
-<hr />
-<h2 id="_2">Как устроен билд?</h2>
-<p>При нажатии на кнопку <strong>"Build"</strong> в меню проектов Override сгенерирует финальный дистрибутив, состоящий из двух ключевых компонентов:</p>
-<ol>
-<li><code>game_builded.ovr</code> — упакованный <code>.zip</code> архив, содержащий все ассеты, скрипты и ресурсы вашей игры.</li>
-<li><code>config.dat</code> — зашифрованный конфигурационный файл, содержащий уникальный ключ доступа для чтения архива движком.</li>
-</ol>
-<div class="admonition danger">
-<p class="admonition-title">Важное правило</p>
-<p>Эти файлы <strong>не могут существовать друг без друга</strong>. Если один из файлов будет потерян или переименован, скомпилированная оболочка движка не сможет запустить игру.</p>
-</div>
-<hr />
-<h2 id="_3">Защита исходного кода</h2>
-<p>Движок Override заботится о безопасности вашей интеллектуальной собственности. Все ассеты защищены от автоматического вскрытия: ключ шифрования генерируется случайным образом для каждой отдельной сборки. Взлом ресурсов одной игры никак не поможет злоумышленникам скомпрометировать файлы другой проекта.</p>
-<div class="admonition warning">
-<p class="admonition-title">Ограничения Alpha-версии (0.x.x)</p>
-<p>Обратите внимание, что на этапе альфа-тестирования защита кода не является абсолютной. Разработчик не гарантирует 100% устойчивость к продвинутому реверс-инжинирингу. Начиная с <strong>Beta-версии (1.x.x)</strong>, протокол защиты и сам метод упаковки билдов будут полностью изменены на более безопасные.</p>
-</div>
-<hr />
-<h2 id="_4">Пошаговое руководство по сборке</h2>
-<p>Для того чтобы запустить вашу скомпилированную игру на компьютере конечного пользователя, вам потребуется специальная исполняемая оболочка (Runtime Shell).</p>
-<h3 id="1">Шаг 1: Подготовка файлов игры</h3>
-<p>В редакторе Override откройте меню проектов и нажмите <strong>Build</strong>. Выберите целевую папку и сохраните сгенерированные файлы <code>game_builded.ovr</code> и <code>config.dat</code>.</p>
-<h3 id="2">Шаг 2: Скачивание оболочки</h3>
-<p>Загрузите официальную исполняемую оболочку приложения под вашу операционную систему:</p>
-<ul>
-<li>📥 <strong><a href="http://kakos2ilia.beget.tech/">Скачать оболочку для Windows / Linux</a></strong></li>
-</ul>
-<h3 id="3">Шаг 3: Объединение компонентов</h3>
-<p>Распакуйте скачанный архив с оболочкой. Перенесите ваши файлы <code>game_builded.ovr</code> и <code>config.dat</code> в корневой каталог распакованной папки — туда же, где находится файл <code>readme.txt</code>.</p>
-<h3 id="4">Шаг 4: Запуск игры</h3>
-<p>Ваша игра полностью готова к распространению! </p>
-<ul>
-<li><strong>На Windows:</strong> Запустите исполняемый файл <code>.exe</code> внутри папки.</li>
-<li><strong>На Linux:</strong> Запустите стартовый скрипт через терминал или менеджер файлов:
-  <div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>./launch.sh
-</span></code></pre></div></li>
-</ul>
+<h1 id="gameobjectnode">Класс GameObject/Node</h1>
+<p>Данный объект не имеет функции рендеринга, следственно и ширины/высоты, используется для группировки объектов.</p>
 
 
 
