@@ -1,0 +1,2135 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://github.io/mathUtils/">
+      
+      
+        <link rel="prev" href="../fileUtils/">
+      
+      
+        <link rel="next" href="../sound/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Документация mathUtils - Override Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mathutils" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href=".." title="Override Documentation" class="md-header__button md-logo" aria-label="Override Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Override Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Документация mathUtils
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink"  aria-label="Включить темную тему"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Включить темную тему" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="pink"  aria-label="Включить светлую тему"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Включить светлую тему" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+  Введение
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../A-GameObject/" class="md-tabs__link">
+          
+  
+  
+  Игровые объекты
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Image/" class="md-tabs__link">
+          
+  
+  
+  Графические сущности
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../display/" class="md-tabs__link">
+          
+  
+  
+  Глобальные API модули
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Override Documentation" class="md-nav__button md-logo" aria-label="Override Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Override Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Введение
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Введение
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    О проекте и основы
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../globals/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.9 17.39c-.26-.8-1.01-1.39-1.9-1.39h-1v-3a1 1 0 0 0-1-1H8v-2h2a1 1 0 0 0 1-1V7h2a2 2 0 0 0 2-2v-.41a7.984 7.984 0 0 1 2.9 12.8M11 19.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.22.21-1.79L9 15v1a2 2 0 0 0 2 2m1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Глобальные объекты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15l-1.89 1.07L16 8.61l1.96-1.11zM6.04 7.5 12 10.85l1.96-1.1-5.88-3.4zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Сборка игры (Билд)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Игровые объекты
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Игровые объекты
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../A-GameObject/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    GameObject (Базовый класс)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../aabb/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 4h6v2h8V4h6v6h-2v4h2v6h-6v-2H8v2H2v-6h2v-4H2zm14 6V8H8v2H6v4h2v2h8v-2h2v-4zM4 6v2h2V6zm14 0v2h2V6zM4 16v2h2v-2zm14 0v2h2v-2z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Хитбоксы (AABB коллизии)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Графические сущности
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Графические сущности
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Image/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Изображения (Image)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Text/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 6v2H3V6zM3 18h9v-2H3zm0-5h18v-2H3z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Текст (Text)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Rect/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6v13h16V6zm14 11H6V8h12z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Прямоугольники (Rect)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Circle/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Круги (Circle)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Глобальные API модули
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Глобальные API модули
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../display/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 6H5v4h2V8h2m10 2h-2v2h-2v2h4m2 2H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Графика (display)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../events/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    События (events)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fileUtils/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 8c-2.21 0-4 1.79-4 4v8H4a2 2 0 0 1-2-2V6c0-1.11.89-2 2-2h6l2 2h8a2 2 0 0 1 2 2v2.17l-1.59-1.58-.58-.59zm8 6v7c0 1.11-.89 2-2 2h-6a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h4zm-2 .83L18.17 12H18v3h3z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Файлы (fileUtils)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 19.88V22l-1.8-1.17-4.79-9c.66-.21 1.26-.55 1.78-1zM15 7a3 3 0 0 1-3 3h-.44L5.8 20.83 4 22v-2.12L9.79 9c-1.1-1.23-1-3.13.24-4.24C10.57 4.28 11.27 4 12 4V2a1 1 0 0 1 1 1v1.18c1.2.42 2 1.55 2 2.82m-2 0a1 1 0 0 0-1-1 1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Математика (mathUtils)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 19.88V22l-1.8-1.17-4.79-9c.66-.21 1.26-.55 1.78-1zM15 7a3 3 0 0 1-3 3h-.44L5.8 20.83 4 22v-2.12L9.79 9c-1.1-1.23-1-3.13.24-4.24C10.57 4.28 11.27 4 12 4V2a1 1 0 0 1 1 1v1.18c1.2.42 2 1.55 2 2.82m-2 0a1 1 0 0 0-1-1 1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Математика (mathUtils)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Интерполяция и Сглаживание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Интерполяция и Сглаживание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilslerp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:lerp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilssmoothlerp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:smoothLerp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilslerpangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:lerpAngle
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ограничения и Диапазоны
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ограничения и Диапазоны">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsclamp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:clamp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsinvlerp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:invLerp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsremap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:remap
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Тригонометрия и Углы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Тригонометрия и Углы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilstoradians" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:toRadians
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilstodegrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:toDegrees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilssin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:sin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:cos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsdistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:distance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsnormalizeradians" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:normalizeRadians
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsnormalizedegrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:normalizeDegrees
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Векторная математика
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Векторная математика">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsnormalize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:normalize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsdot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:dot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsreflect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:reflect
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Округление и Случайность
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Округление и Случайность">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsrandom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:random
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsround" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:round
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsfloor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:floor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsceil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:ceil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsroundtoplaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:roundToPlaces
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilssnap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:snap
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sound/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.84-5 6.7v2.07c4-.91 7-4.49 7-8.77s-3-7.86-7-8.77M16.5 12c0-1.77-1-3.29-2.5-4.03V16c1.5-.71 2.5-2.24 2.5-4M3 9v6h4l5 5V4L7 9z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Звук (sound)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tween/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 2c-1.11 0-2 .89-2 2v10h2V4h10V2zm4 4c-1.11 0-2 .89-2 2v10h2V8h10V6zm4 4c-1.11 0-2 .89-2 2v8c0 1.11.89 2 2 2h8c1.11 0 2-.89 2-2v-8c0-1.11-.89-2-2-2z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Анимации (tween)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timer/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7m7.03-12.61 1.42-1.42c-.45-.51-.9-.97-1.41-1.41L17.62 6c-1.55-1.26-3.5-2-5.62-2a9 9 0 0 0-9 9 9 9 0 0 0 9 9c5 0 9-4.03 9-9 0-2.12-.74-4.07-1.97-5.61M11 14h2V8h-2m4-7H9v2h6z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Таймеры (timer)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mouse/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 1.07C7.05 1.56 4 4.92 4 9h7m-7 6a8 8 0 0 0 8 8 8 8 0 0 0 8-8v-4H4m9-9.93V9h7c0-4.08-3.06-7.44-7-7.93"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Мышь (mouse)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../override/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2m-2 12c-.25 0-.46-.18-.5-.42l-.37-2.65c-.63-.25-1.17-.59-1.69-.99l-2.49 1.01c-.22.08-.49 0-.61-.22l-2-3.46a.493.493 0 0 1 .12-.64l2.11-1.66L4.5 12l.07-1-2.11-1.63a.493.493 0 0 1-.12-.64l2-3.46c.12-.22.39-.31.61-.22l2.49 1c.52-.39 1.06-.73 1.69-.98l.37-2.65c.04-.24.25-.42.5-.42h4c.25 0 .46.18.5.42l.37 2.65c.63.25 1.17.59 1.69.98l2.49-1c.22-.09.49 0 .61.22l2 3.46c.13.22.07.49-.12.64L19.43 11l.07 1-.07 1 2.11 1.63c.19.15.25.42.12.64l-2 3.46c-.12.22-.39.31-.61.22l-2.49-1c-.52.39-1.06.73-1.69.98l-.37 2.65c-.04.24-.25.42-.5.42zm1.25-18-.37 2.61c-1.2.25-2.26.89-3.03 1.78L5.44 7.35l-.75 1.3L6.8 10.2a5.55 5.55 0 0 0 0 3.6l-2.12 1.56.75 1.3 2.43-1.04c.77.88 1.82 1.52 3.01 1.76l.37 2.62h1.52l.37-2.61c1.19-.25 2.24-.89 3.01-1.77l2.43 1.04.75-1.3-2.12-1.55c.4-1.17.4-2.44 0-3.61l2.11-1.55-.75-1.3-2.41 1.04a5.42 5.42 0 0 0-3.03-1.77L12.75 4z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Сцены (override)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../window/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16v16H4zm2 4v10h12V8z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Окно приложения (window)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Интерполяция и Сглаживание
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Интерполяция и Сглаживание">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilslerp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:lerp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilssmoothlerp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:smoothLerp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilslerpangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:lerpAngle
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ограничения и Диапазоны
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ограничения и Диапазоны">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsclamp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:clamp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsinvlerp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:invLerp
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsremap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:remap
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Тригонометрия и Углы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Тригонометрия и Углы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilstoradians" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:toRadians
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilstodegrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:toDegrees
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilssin" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:sin
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:cos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsdistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:distance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsnormalizeradians" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:normalizeRadians
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsnormalizedegrees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:normalizeDegrees
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Векторная математика
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Векторная математика">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsnormalize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:normalize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsdot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:dot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsreflect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:reflect
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Округление и Случайность
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Округление и Случайность">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsrandom" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:random
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsround" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:round
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsfloor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:floor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsceil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:ceil
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilsroundtoplaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:roundToPlaces
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathutilssnap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        mathUtils:snap
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="mathutils">Модуль mathUtils</h1>
+<p>Модуль <code>mathUtils</code> предоставляет полный набор математических функций для работы с интерполяцией, тригонометрией, векторами и округлением в игровом движке <strong>Override</strong>. Все вычисления производятся на стороне Java с высокой точностью (<code>float</code>), что минимизирует нагрузку на сборщик мусора Lua.</p>
+<hr />
+<h2 id="_1">Интерполяция и Сглаживание</h2>
+<h3 id="mathutilslerp">mathUtils:lerp</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">lerp</span><span class="p">(</span><span class="nv">startVal</span><span class="p">,</span><span class="w"> </span><span class="nv">endVal</span><span class="p">,</span><span class="w"> </span><span class="nv">t</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Метод классической линейной интерполяции. Возвращает промежуточное значение между <code>startVal</code> и <code>endVal</code> на основе коэффициента <code>t</code> (от <code>0.0</code> до <code>1.0</code>).</p>
+<ul>
+<li><strong>Аргументы:</strong><ul>
+<li><code>startVal</code> (number) — Начальное значение.</li>
+<li><code>endVal</code> (number) — Конечное значение.</li>
+<li><code>t</code> (number) — Шаг интерполяции.</li>
+</ul>
+</li>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">-- Плавное движение к цели в функции update</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">math.min</span><span class="p">(</span><span class="mf">5.0</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">dt</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">)</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">lerp</span><span class="p">(</span><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">targetX</span><span class="p">,</span><span class="w"> </span><span class="nv">t</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilssmoothlerp">mathUtils:smoothLerp</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">smoothLerp</span><span class="p">(</span><span class="nv">startVal</span><span class="p">,</span><span class="w"> </span><span class="nv">endVal</span><span class="p">,</span><span class="w"> </span><span class="nv">t</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Метод интерполяции с использованием алгоритма <strong>Smoothstep</strong>. Обеспечивает плавное сглаживание («разгон» в начале и «торможение» в конце анимации).</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">-- Плавное появление окна интерфейса за 1 секунду</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nv">currentAlpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">smoothLerp</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="nv">elapsedSeconds</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilslerpangle">mathUtils:lerpAngle</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">lerpAngle</span><span class="p">(</span><span class="nv">startRad</span><span class="p">,</span><span class="w"> </span><span class="nv">endRad</span><span class="p">,</span><span class="w"> </span><span class="nv">t</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Метод линейной интерполяции углов (в радианах). Автоматически выбирает кратчайший путь на окружности, предотвращая баг «разворота на 360 градусов» при переходе через ноль.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1">-- Плавный поворот турели в сторону врага</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nv">object</span><span class="p">.</span><span class="py">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">lerpAngle</span><span class="p">(</span><span class="nv">object</span><span class="p">.</span><span class="py">angle</span><span class="p">,</span><span class="w"> </span><span class="nv">targetAngle</span><span class="p">,</span><span class="w"> </span><span class="mf">6.0</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">dt</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_2">Ограничения и Диапазоны</h2>
+<h3 id="mathutilsclamp">mathUtils:clamp</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">clamp</span><span class="p">(</span><span class="nv">value</span><span class="p">,</span><span class="w"> </span><span class="nv">min</span><span class="p">,</span><span class="w"> </span><span class="nv">max</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+«Зажимает» переданное число <code>value</code> в строгих границах между <code>min</code> и <code>max</code>.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1">-- Ограничение здоровья игрока от 0 до 100</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="nv">player</span><span class="p">.</span><span class="py">health</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">clamp</span><span class="p">(</span><span class="nv">player</span><span class="p">.</span><span class="py">health</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">20</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilsinvlerp">mathUtils:invLerp</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">invLerp</span><span class="p">(</span><span class="nv">startVal</span><span class="p">,</span><span class="w"> </span><span class="nv">endVal</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Метод обратной интерполяции. Возвращает процентную долю (от <code>0.0</code> до <code>1.0</code>) числа <code>value</code> внутри диапазона от <code>startVal</code> до <code>endVal</code>.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1">-- Расчет заполненности полоски прогресса (от 10 до 50 опыта)</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">progress</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">invLerp</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="nv">currentXp</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; 0.5 (если xp = 30)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilsremap">mathUtils:remap</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">remap</span><span class="p">(</span><span class="nv">inMin</span><span class="p">,</span><span class="w"> </span><span class="nv">inMax</span><span class="p">,</span><span class="w"> </span><span class="nv">outMin</span><span class="p">,</span><span class="w"> </span><span class="nv">outMax</span><span class="p">,</span><span class="w"> </span><span class="nv">value</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Пропорционально переносит число <code>value</code> из одного диапазона в другой.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1">-- Привязка громкости звука (0..100) к прозрачности объекта (0.0..1.0)</span>
+</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">alpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">remap</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="nv">soundVolume</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_3">Тригонометрия и Углы</h2>
+<h3 id="mathutilstoradians">mathUtils:toRadians</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">toRadians</span><span class="p">(</span><span class="nv">degrees</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Переводит угол из привычных градусов в радианы.</p>
+<h3 id="mathutilstodegrees">mathUtils:toDegrees</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">toDegrees</span><span class="p">(</span><span class="nv">radians</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Переводит угол из радиан в градусы.</p>
+<h3 id="mathutilssin">mathUtils:sin</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">sin</span><span class="p">(</span><span class="nv">radians</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает синус угла (в радианах). Часто используется для циклических анимаций покачивания.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="c1">-- Эффект парения монетки в воздухе</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="nv">object</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">baseY</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">sin</span><span class="p">(</span><span class="nv">lifetime</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">3.0</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">10.0</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilscos">mathUtils:cos</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">cos</span><span class="p">(</span><span class="nv">radians</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает косинус угла (в радианах). Используется вместе с <code>sin</code> для движения во все стороны.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1">-- Движение объекта вперед в направлении его взгляда (angle)</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="nv">object</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">object</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">cos</span><span class="p">(</span><span class="nv">object</span><span class="p">.</span><span class="py">angle</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">speed</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">dt</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilsdistance">mathUtils:distance</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">distance</span><span class="p">(</span><span class="nv">x1</span><span class="p">,</span><span class="w"> </span><span class="nv">y1</span><span class="p">,</span><span class="w"> </span><span class="nv">x2</span><span class="p">,</span><span class="w"> </span><span class="nv">y2</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Рассчитывает точное расстояние между двумя точками на плоскости по теореме Пифагора.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kr">if</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">distance</span><span class="p">(</span><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">player</span><span class="p">.</span><span class="py">y</span><span class="p">,</span><span class="w"> </span><span class="nv">enemy</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">enemy</span><span class="p">.</span><span class="py">y</span><span class="p">)</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">50</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Враг слишком близко!"</span><span class="p">)</span>
+</span><span id="__span-19-3"><a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a><span class="kr">end</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilsnormalizeradians">mathUtils:normalizeRadians</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">normalizeRadians</span><span class="p">(</span><span class="nv">radians</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Нормализует любой угол в радианах, приводя его к стандартному циклическому диапазону от <code>0</code> до <code>2*PI</code>.</p>
+<h3 id="mathutilsnormalizedegrees">mathUtils:normalizeDegrees</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">normalizeDegrees</span><span class="p">(</span><span class="nv">degrees</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Нормализует любой угол в градусах, приводя его к циклическому диапазону от <code>0</code> до <code>360</code>.</p>
+<hr />
+<h2 id="_4">Векторная математика</h2>
+<h3 id="mathutilsnormalize">mathUtils:normalize</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">normalize</span><span class="p">(</span><span class="nv">x</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; table</span>
+</span></code></pre></div>
+Принимает компоненты вектора <code>x</code> и <code>y</code> и возвращает массив (таблицу Lua) из двух элементов <code>[nx, ny]</code>, представляющий вектор единичной длины (чистое направление).</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">dir</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">normalize</span><span class="p">(</span><span class="nv">targetX</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">targetY</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="nv">player</span><span class="p">.</span><span class="py">y</span><span class="p">)</span>
+</span><span id="__span-23-2"><a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">dir</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">speed</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">dt</span>
+</span><span id="__span-23-3"><a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a><span class="nv">player</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">player</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nv">dir</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">speed</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">dt</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilsdot">mathUtils:dot</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">dot</span><span class="p">(</span><span class="nv">x1</span><span class="p">,</span><span class="w"> </span><span class="nv">y1</span><span class="p">,</span><span class="w"> </span><span class="nv">x2</span><span class="p">,</span><span class="w"> </span><span class="nv">y2</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает скалярное произведение двух векторов. Позволяет узнать сонаправленность векторов (например, конус видимости ИИ).</p>
+<h3 id="mathutilsreflect">mathUtils:reflect</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">reflect</span><span class="p">(</span><span class="nv">vx</span><span class="p">,</span><span class="w"> </span><span class="nv">vy</span><span class="p">,</span><span class="w"> </span><span class="nv">nx</span><span class="p">,</span><span class="w"> </span><span class="nv">ny</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; table</span>
+</span></code></pre></div>
+Рассчитывает вектор отскока объекта от препятствия. Принимает вектор скорости движущегося объекта <code>(vx, vy)</code> и нормаль стены <code>(nx, ny)</code>. Возвращает таблицу <code>[rx, ry]</code>.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-26-1"><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="c1">-- Отскок мяча от вертикальной стены (нормаль x=1, y=0)</span>
+</span><span id="__span-26-2"><a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">newVelocity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">reflect</span><span class="p">(</span><span class="nv">ball</span><span class="p">.</span><span class="py">vx</span><span class="p">,</span><span class="w"> </span><span class="nv">ball</span><span class="p">.</span><span class="py">vy</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span>
+</span><span id="__span-26-3"><a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="nv">ball</span><span class="p">.</span><span class="py">vx</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">newVelocity</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+</span><span id="__span-26-4"><a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="nv">ball</span><span class="p">.</span><span class="py">vy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">newVelocity</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_5">Округление и Случайность</h2>
+<h3 id="mathutilsrandom">mathUtils:random</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-27-1"><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">random</span><span class="p">(</span><span class="nv">min</span><span class="p">,</span><span class="w"> </span><span class="nv">max</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает случайное число с плавающей точкой в диапазоне от <code>min</code> до <code>max</code>.</p>
+<h3 id="mathutilsround">mathUtils:round</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-28-1"><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">round</span><span class="p">(</span><span class="nv">value</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Округляет число до ближайшего целого по классическим математическим правилам.</p>
+<h3 id="mathutilsfloor">mathUtils:floor</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-29-1"><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">floor</span><span class="p">(</span><span class="nv">value</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Округляет число строго вниз (в сторону меньшего целого). Незаменим для работы с индексами тайлмапов.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-30-1"><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="c1">-- Получение индекса плитки на карте (размер плитки 64x64)</span>
+</span><span id="__span-30-2"><a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">tileX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">floor</span><span class="p">(</span><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="mi">64</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="mathutilsceil">mathUtils:ceil</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-31-1"><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">ceil</span><span class="p">(</span><span class="nv">value</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Округляет число строго вверх (в сторону большего целого).</p>
+<h3 id="mathutilsroundtoplaces">mathUtils:roundToPlaces</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-32-1"><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">roundToPlaces</span><span class="p">(</span><span class="nv">value</span><span class="p">,</span><span class="w"> </span><span class="nv">places</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Округление числа до указанного количества знаков <code>places</code> после запятой. Используется для оптимизации вывода текста в UI.</p>
+<h3 id="mathutilssnap">mathUtils:snap</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-33-1"><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">snap</span><span class="p">(</span><span class="nv">value</span><span class="p">,</span><span class="w"> </span><span class="nv">cellSize</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Привязывает число к ближайшему шагу виртуальной сетки размером <code>cellSize</code>. Главный инструмент для систем строительства и Grid-привязки.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-34-1"><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="c1">-- Выравнивание позиции курсора по сетке блоков 32x32 пикселя</span>
+</span><span id="__span-34-2"><a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="nv">block</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">snap</span><span class="p">(</span><span class="nv">mouse</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="mi">32</span><span class="p">)</span>
+</span><span id="__span-34-3"><a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="nv">block</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mathUtils</span><span class="p">:</span><span class="nf">snap</span><span class="p">(</span><span class="nv">mouse</span><span class="p">.</span><span class="py">y</span><span class="p">,</span><span class="w"> </span><span class="mi">32</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

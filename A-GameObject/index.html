@@ -11,10 +11,10 @@
         <link rel="canonical" href="https://github.io/A-GameObject/">
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../build/">
       
       
-        <link rel="next" href="../A-basics/">
+        <link rel="next" href="../aabb/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>GameObject - Override documentation</title>
+        <title>Базовый класс GameObject - Override Documentation</title>
       
     
     
@@ -69,7 +69,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -90,11 +90,9 @@
     
       
 
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href=".." title="Override documentation" class="md-header__button md-logo" aria-label="Override documentation" data-md-component="logo">
+    <a href=".." title="Override Documentation" class="md-header__button md-logo" aria-label="Override Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,13 +106,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Override documentation
+            Override Documentation
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              GameObject
+              Базовый класс GameObject
             
           </span>
         </div>
@@ -127,7 +125,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Включить темную тему"  type="radio" name="__palette" id="__palette_0">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="pink"  aria-label="Включить темную тему"  type="radio" name="__palette" id="__palette_0">
     
       <label class="md-header__button md-icon" title="Включить темную тему" for="__palette_1" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -137,7 +135,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="Включить светлую тему"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="pink"  aria-label="Включить светлую тему"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="Включить светлую тему" for="__palette_0" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
@@ -202,6 +200,97 @@
       
         
           
+            
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href=".." class="md-tabs__link">
+          
+  
+  
+  Введение
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+  Игровые объекты
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Image/" class="md-tabs__link">
+          
+  
+  
+  Графические сущности
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../display/" class="md-tabs__link">
+          
+  
+  
+  Глобальные API модули
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
         
       
       <main class="md-main" data-md-component="main">
@@ -215,16 +304,18 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Override documentation" class="md-nav__button md-logo" aria-label="Override documentation" data-md-component="logo">
+    <a href=".." title="Override Documentation" class="md-nav__button md-logo" aria-label="Override Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Override documentation
+    Override Documentation
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -235,15 +326,69 @@
   
   
   
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+    
+    
+    
+    
+      
+      
         
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
     
   
-    Добро пожаловать в Override!
+    Введение
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Введение
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    О проекте и основы
   
 
     
@@ -255,9 +400,134 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../globals/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.9 17.39c-.26-.8-1.01-1.39-1.9-1.39h-1v-3a1 1 0 0 0-1-1H8v-2h2a1 1 0 0 0 1-1V7h2a2 2 0 0 0 2-2v-.41a7.984 7.984 0 0 1 2.9 12.8M11 19.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.22.21-1.79L9 15v1a2 2 0 0 0 2 2m1-16A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Глобальные объекты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15l-1.89 1.07L16 8.61l1.96-1.11zM6.04 7.5 12 10.85l1.96-1.1-5.88-3.4zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Сборка игры (Билд)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Игровые объекты
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Игровые объекты
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
     
@@ -276,10 +546,12 @@
           
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    GameObject
+    GameObject (Базовый класс)
   
 
     
@@ -294,10 +566,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16.5c0 .38-.21.71-.53.88l-7.9 4.44c-.16.12-.36.18-.57.18s-.41-.06-.57-.18l-7.9-4.44A.99.99 0 0 1 3 16.5v-9c0-.38.21-.71.53-.88l7.9-4.44c.16-.12.36-.18.57-.18s.41.06.57.18l7.9 4.44c.32.17.53.5.53.88zM12 4.15 6.04 7.5 12 10.85l5.96-3.35zM5 15.91l6 3.38v-6.71L5 9.21zm14 0v-6.7l-6 3.37v6.71z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    GameObject
+    GameObject (Базовый класс)
   
 
     
@@ -323,10 +597,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gameobject_1" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject
+        Свойства объекта
       
     </span>
   </a>
@@ -334,156 +608,247 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Методы управления и жизненного цикла
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Методы управления и жизненного цикла">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gameobjectremove" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:remove()
+        GameObject:remove
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectgetworldx-number" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:getWorldX() --&gt; number
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectgetworldy-number" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:getWorldY() --&gt; number
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectgetworldangle-number" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:getWorldAngle() --&gt; number
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectinsertgameobject" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:insert(GameObject)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectfindstring-nameortag-gameobject" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:find(string nameOrTag) -&gt; GameObject
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#gameobjectclear" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:clear()
+        GameObject:clear
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#gameobjectonstring-namefunction-callback" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:on(string name,function callback)
+        Трансформация в пространстве
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectoffstring-name" class="md-nav__link">
+    <nav class="md-nav" aria-label="Трансформация в пространстве">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectgetworldx" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:off(string name)
+        GameObject:getWorldX
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectlookatnum-xnum-y" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectgetworldy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:lookAt(num x,num y)
+        GameObject:getWorldY
       
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectgetworldangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:getWorldAngle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectlookat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:lookAt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Иерархия и работа с поддеревьями (Ноды)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Иерархия и работа с поддеревьями (Ноды)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectinsert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:insert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectfind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:find
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сортировка слоев рендеринга
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Сортировка слоев рендеринга">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gameobjecttofront" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:toFront()
+        GameObject:toFront
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#gameobjecttoback" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:toBack()
+        GameObject:toBack
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#gameobjectsetcolorrgba" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:setColor(r,g,b[,a])
+        Цвет и визуализация
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Цвет и визуализация">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectsetcolor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:setColor
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#gameobjectsetcolorhex" class="md-nav__link">
+  <a href="#events" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:setColor(HEX)
+        Управление событиями (Events)
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Управление событиями (Events)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjecton" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:on
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:off
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -494,171 +859,10 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../A-basics/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Основы и фундаментальные принципы
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Circle/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GameObject/Circle
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../FileTool/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    fileTool
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Image/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GameObject/Image
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Rect/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GameObject/Rect
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Text/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    GameObject/Text
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -668,10 +872,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 4h6v2h8V4h6v6h-2v4h2v6h-6v-2H8v2H2v-6h2v-4H2zm14 6V8H8v2H6v4h2v2h8v-2h2v-4zM4 6v2h2V6zm14 0v2h2V6zM4 16v2h2v-2zm14 0v2h2v-2z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    GameObject/aabb
+    Хитбоксы (AABB коллизии)
   
 
     
@@ -683,22 +889,84 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Графические сущности
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Графические сущности
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="../build/" class="md-nav__link">
+      <a href="../Image/" class="md-nav__link">
         
   
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V5h14m0-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-5.04 9.29-2.75 3.54-1.96-2.36L6.5 17h11z"/></svg>
   
   <span class="md-ellipsis">
     
   
-    Сборка вашей игры
+    Изображения (Image)
   
 
     
@@ -710,9 +978,159 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Text/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 6v2H3V6zM3 18h9v-2H3zm0-5h18v-2H3z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Текст (Text)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Rect/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6v13h16V6zm14 11H6V8h12z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Прямоугольники (Rect)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Circle/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 1-8-8 8 8 0 0 1 8-8 8 8 0 0 1 8 8 8 8 0 0 1-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Круги (Circle)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
     
       
       
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Глобальные API модули
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Глобальные API модули
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
   
   
   
@@ -722,10 +1140,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 6H5v4h2V8h2m10 2h-2v2h-2v2h4m2 2H3V4h18m0-2H3c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h7v2H8v2h8v-2h-2v-2h7a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    display
+    Графика (display)
   
 
     
@@ -737,9 +1157,10 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -749,10 +1170,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 15H6l7-14v8h5l-7 14z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    events
+    События (events)
   
 
     
@@ -764,22 +1187,25 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="../globals/" class="md-nav__link">
+      <a href="../fileUtils/" class="md-nav__link">
         
   
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 8c-2.21 0-4 1.79-4 4v8H4a2 2 0 0 1-2-2V6c0-1.11.89-2 2-2h6l2 2h8a2 2 0 0 1 2 2v2.17l-1.59-1.58-.58-.59zm8 6v7c0 1.11-.89 2-2 2h-6a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h4zm-2 .83L18.17 12H18v3h3z"/></svg>
   
   <span class="md-ellipsis">
     
   
-    Глобальные объекты
+    Файлы (fileUtils)
   
 
     
@@ -791,22 +1217,25 @@
     </li>
   
 
-    
-      
-      
+              
+            
+              
+                
   
   
   
   
     <li class="md-nav__item">
-      <a href="../mouse/" class="md-nav__link">
+      <a href="../mathUtils/" class="md-nav__link">
         
   
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 19.88V22l-1.8-1.17-4.79-9c.66-.21 1.26-.55 1.78-1zM15 7a3 3 0 0 1-3 3h-.44L5.8 20.83 4 22v-2.12L9.79 9c-1.1-1.23-1-3.13.24-4.24C10.57 4.28 11.27 4 12 4V2a1 1 0 0 1 1 1v1.18c1.2.42 2 1.55 2 2.82m-2 0a1 1 0 0 0-1-1 1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1"/></svg>
   
   <span class="md-ellipsis">
     
   
-    mouse
+    Математика (mathUtils)
   
 
     
@@ -818,36 +1247,10 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../override/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    override
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -857,10 +1260,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.84-5 6.7v2.07c4-.91 7-4.49 7-8.77s-3-7.86-7-8.77M16.5 12c0-1.77-1-3.29-2.5-4.03V16c1.5-.71 2.5-2.24 2.5-4M3 9v6h4l5 5V4L7 9z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    sound
+    Звук (sound)
   
 
     
@@ -872,36 +1277,10 @@
     </li>
   
 
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../timer/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    timer
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
+              
+            
+              
+                
   
   
   
@@ -911,10 +1290,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 2c-1.11 0-2 .89-2 2v10h2V4h10V2zm4 4c-1.11 0-2 .89-2 2v10h2V8h10V6zm4 4c-1.11 0-2 .89-2 2v8c0 1.11.89 2 2 2h8c1.11 0 2-.89 2-2v-8c0-1.11-.89-2-2-2z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    tween
+    Анимации (tween)
   
 
     
@@ -926,9 +1307,100 @@
     </li>
   
 
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../timer/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7m7.03-12.61 1.42-1.42c-.45-.51-.9-.97-1.41-1.41L17.62 6c-1.55-1.26-3.5-2-5.62-2a9 9 0 0 0-9 9 9 9 0 0 0 9 9c5 0 9-4.03 9-9 0-2.12-.74-4.07-1.97-5.61M11 14h2V8h-2m4-7H9v2h6z"/></svg>
+  
+  <span class="md-ellipsis">
     
-      
-      
+  
+    Таймеры (timer)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mouse/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 1.07C7.05 1.56 4 4.92 4 9h7m-7 6a8 8 0 0 0 8 8 8 8 0 0 0 8-8v-4H4m9-9.93V9h7c0-4.08-3.06-7.44-7-7.93"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Мышь (mouse)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../override/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 2a2 2 0 0 0-2 2 2 2 0 0 0 2 2 2 2 0 0 0 2-2 2 2 0 0 0-2-2m-2 12c-.25 0-.46-.18-.5-.42l-.37-2.65c-.63-.25-1.17-.59-1.69-.99l-2.49 1.01c-.22.08-.49 0-.61-.22l-2-3.46a.493.493 0 0 1 .12-.64l2.11-1.66L4.5 12l.07-1-2.11-1.63a.493.493 0 0 1-.12-.64l2-3.46c.12-.22.39-.31.61-.22l2.49 1c.52-.39 1.06-.73 1.69-.98l.37-2.65c.04-.24.25-.42.5-.42h4c.25 0 .46.18.5.42l.37 2.65c.63.25 1.17.59 1.69.98l2.49-1c.22-.09.49 0 .61.22l2 3.46c.13.22.07.49-.12.64L19.43 11l.07 1-.07 1 2.11 1.63c.19.15.25.42.12.64l-2 3.46c-.12.22-.39.31-.61.22l-2.49-1c-.52.39-1.06.73-1.69.98l-.37 2.65c-.04.24-.25.42-.5.42zm1.25-18-.37 2.61c-1.2.25-2.26.89-3.03 1.78L5.44 7.35l-.75 1.3L6.8 10.2a5.55 5.55 0 0 0 0 3.6l-2.12 1.56.75 1.3 2.43-1.04c.77.88 1.82 1.52 3.01 1.76l.37 2.62h1.52l.37-2.61c1.19-.25 2.24-.89 3.01-1.77l2.43 1.04.75-1.3-2.12-1.55c.4-1.17.4-2.44 0-3.61l2.11-1.55-.75-1.3-2.41 1.04a5.42 5.42 0 0 0-3.03-1.77L12.75 4z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Сцены (override)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
   
@@ -938,10 +1410,12 @@
         
   
   
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16v16H4zm2 4v10h12V8z"/></svg>
+  
   <span class="md-ellipsis">
     
   
-    window
+    Окно приложения (window)
   
 
     
@@ -950,6 +1424,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -981,10 +1463,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gameobject_1" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject
+        Свойства объекта
       
     </span>
   </a>
@@ -992,156 +1474,247 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Методы управления и жизненного цикла
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Методы управления и жизненного цикла">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gameobjectremove" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:remove()
+        GameObject:remove
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectgetworldx-number" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:getWorldX() --&gt; number
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectgetworldy-number" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:getWorldY() --&gt; number
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectgetworldangle-number" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:getWorldAngle() --&gt; number
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectinsertgameobject" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:insert(GameObject)
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectfindstring-nameortag-gameobject" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GameObject:find(string nameOrTag) -&gt; GameObject
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#gameobjectclear" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:clear()
+        GameObject:clear
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#gameobjectonstring-namefunction-callback" class="md-nav__link">
+  <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:on(string name,function callback)
+        Трансформация в пространстве
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectoffstring-name" class="md-nav__link">
+    <nav class="md-nav" aria-label="Трансформация в пространстве">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectgetworldx" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:off(string name)
+        GameObject:getWorldX
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#gameobjectlookatnum-xnum-y" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectgetworldy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:lookAt(num x,num y)
+        GameObject:getWorldY
       
     </span>
   </a>
   
 </li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectgetworldangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:getWorldAngle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectlookat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:lookAt
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Иерархия и работа с поддеревьями (Ноды)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Иерархия и работа с поддеревьями (Ноды)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectinsert" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:insert
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectfind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:find
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сортировка слоев рендеринга
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Сортировка слоев рендеринга">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#gameobjecttofront" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:toFront()
+        GameObject:toFront
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
+        
+          <li class="md-nav__item">
   <a href="#gameobjecttoback" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:toBack()
+        GameObject:toBack
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#gameobjectsetcolorrgba" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:setColor(r,g,b[,a])
+        Цвет и визуализация
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Цвет и визуализация">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectsetcolor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:setColor
       
     </span>
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
-  <a href="#gameobjectsetcolorhex" class="md-nav__link">
+  <a href="#events" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GameObject:setColor(HEX)
+        Управление событиями (Events)
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Управление событиями (Events)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gameobjecton" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:on
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gameobjectoff" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GameObject:off
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1162,113 +1735,258 @@
 
 
 
-<h1 id="gameobject">GameObject</h1>
-<p>Графические объекты - это основная еденица из которой будет состоять ваша игра, все объекты имеют общего предка <code>GameObject</code>. Все объекты созданные через <code>display:...</code> наследуются от него, это значит что все нижеописанные методы можно использовать на любом объекте.</p>
-<h2 id="gameobject_1">GameObject</h2>
-<p>Свойства: 
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">node</span><span class="p">()</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nv">a</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="c1">--позиция x относительно центра экрана</span>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nv">a</span><span class="p">.</span><span class="py">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="c1">--позиция y относительно центра экрана</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nv">a</span><span class="p">.</span><span class="py">width</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="c1">--ширина объекта</span>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="nv">a</span><span class="p">.</span><span class="py">height</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="c1">--высота объекта</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="nv">a</span><span class="p">.</span><span class="py">angle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="c1">--вращение объекта в градусах</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nv">a</span><span class="p">.</span><span class="py">scale</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="c1">--размер объекта, указывается в float, 1.0 - оригинальный размер, 0.5 - половина от размера</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="nv">a</span><span class="p">.</span><span class="py">anchorX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.5</span><span class="w"> </span><span class="c1">--якорь по оси x, 1-смещение центра объекта вправо, 0-смещение влево</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="nv">a</span><span class="p">.</span><span class="py">anchorY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.5</span><span class="w"> </span><span class="c1">--якорь по оси y, 1-смещение центра объекта вверх, 0-смещение вниз</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="nv">a</span><span class="p">.</span><span class="py">anchorAngle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="w"> </span><span class="c1">--смещение во вращении, указывается в градусах</span>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="nv">a</span><span class="p">.</span><span class="py">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{}</span><span class="w"> </span><span class="c1">--луа таблица для записи кастомных свойств объекта</span>
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="nv">a</span><span class="p">.</span><span class="py">layer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="c1">--слой отображения объекта, чем выше слой тем выше приоритет рендеринга, указывается в int</span>
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="nv">a</span><span class="p">.</span><span class="py">color</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="nv">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="nv">g</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="nv">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="nv">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">255</span><span class="p">}</span><span class="w"> </span><span class="c1">--цвет объекта</span>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="nv">a</span><span class="p">.</span><span class="py">isVisible</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="w"> </span><span class="c1">--видимость объекта</span>
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="nv">a</span><span class="p">.</span><span class="py">mirroredX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="c1">--отзеркаливание по оси x</span>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="nv">a</span><span class="p">.</span><span class="py">mirroredY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="w"> </span><span class="c1">--отзеркаливание по оси y</span>
-</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>
-</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="nv">a</span><span class="p">.</span><span class="py">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span><span class="w"> </span><span class="c1">--свойство для поиска среди объектов если это необходмо</span>
-</span><span id="__span-0-21"><a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a><span class="nv">a</span><span class="p">.</span><span class="py">tag</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">""</span><span class="w"> </span><span class="c1">--аналог свойства выше, его добавление спорно и он скоро будет удалён</span>
-</span></code></pre></div></p>
-<p>Методы: 
-<code>ВНИМАНИЕ:все методы объекта вызываются строго через знак ":" а не через ".", обусловлено тем что объекты переданные в lua не являются полноценными объектами этой среды.</code></p>
-<h2 id="gameobjectremove">GameObject:remove()</h2>
-<p>Метод полностью удаляющий объект а так же его детей.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">rect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nv">a</span><span class="p">:</span><span class="nf">remove</span><span class="p">()</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectgetworldx-number">GameObject:getWorldX() --&gt; number</h2>
-<p>Метод возвращает позицию объекта X относительно мира игнорируя родителя.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nb">print</span><span class="p">(</span><span class="nv">a</span><span class="p">:</span><span class="nf">getWorldX</span><span class="p">())</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectgetworldy-number">GameObject:getWorldY() --&gt; number</h2>
-<p>Метод возвращает позицию объекта Y относительно мира игнорируя родителя.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="nb">print</span><span class="p">(</span><span class="nv">a</span><span class="p">:</span><span class="nf">getWorldY</span><span class="p">())</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectgetworldangle-number">GameObject:getWorldAngle() --&gt; number</h2>
-<p>Метод возвращает вращение объекта относительно мира игнорируя родителя.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nb">print</span><span class="p">(</span><span class="nv">a</span><span class="p">:</span><span class="nf">getWorldAngle</span><span class="p">())</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectinsertgameobject">GameObject:insert(GameObject)</h2>
-<p>Метод для "вставки" одного объекта в другой, после этого действия объект переданный аргументом становится наследником объекта которым был вызван метод. Данный метод очень полезен для группировки объектов, вы можете создать объект типа <code>node</code> и складывать туда к примеру интерфейс вашей игры для управления целым слоем.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">node</span><span class="p">()</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">rect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nv">a</span><span class="p">:</span><span class="nf">insert</span><span class="p">(</span><span class="nv">b</span><span class="p">)</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="nv">a</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="w"> </span><span class="c1">--позиция прямоугольника тоже изменится</span>
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="nv">a</span><span class="p">:</span><span class="nf">remove</span><span class="p">()</span><span class="w"> </span><span class="c1">--прямоугольник удалён вместе с нодой так как он является наследником</span>
+<h1 id="gameobject">Класс GameObject</h1>
+<p>Графические объекты — это основная структурная единица, из которой состоит ваша игра. Все визуальные сущности в Override имеют общего предка <code>GameObject</code>. </p>
+<p>Любые объекты, созданные через фабрику <code>display:...</code> (прямоугольники, круги, спрайты, ноды), наследуют свойства и методы, описанные ниже. Вы можете применять их к любому объекту без исключений.</p>
+<div class="admonition warning">
+<p class="admonition-title">Внимание</p>
+<p>Все методы объекта вызываются <strong>строго через знак двоеточия <code>:</code></strong>, а не через точку <code>.</code>. Объекты, переданные в среду Lua из Java, являются <code>userdata</code>, и синтаксис <code>:</code> автоматически передает ссылку на сам объект (<code>self</code>) в качестве первого аргумента.</p>
+</div>
+<hr />
+<h2 id="_1">Свойства объекта</h2>
+<p>Все свойства считываются и изменяются через <strong>точку <code>.</code></strong>:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Свойство</th>
+<th style="text-align: left;">Тип данных</th>
+<th style="text-align: left;">Описание</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><code>x</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Позиция объекта по оси X относительно родительского контейнера или центра экрана.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>y</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Позиция объекта по оси Y относительно родительского контейнера или центра экрана.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>width</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Ширина объекта в пикселях.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>height</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Высота объекта в пикселях.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>angle</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Собственное вращение объекта, указывается в <strong>градусах</strong>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>scale</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Масштаб объекта (<code>float</code>). <code>1.0</code> — исходный размер, <code>0.5</code> — уменьшение вдвое.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>anchorX</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Точка привязки (якорь) по оси X. <code>0.0</code> — левый край, <code>0.5</code> — центр, <code>1.0</code> — правый край.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>anchorY</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Точка привязки (якорь) по оси Y. <code>0.0</code> — верхний край, <code>0.5</code> — центр, <code>1.0</code> — нижний край.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>anchorAngle</code></td>
+<td style="text-align: left;"><code>number</code></td>
+<td style="text-align: left;">Смещение центра вращения объекта, указывается в градусах.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>data</code></td>
+<td style="text-align: left;"><code>table</code></td>
+<td style="text-align: left;">Нативная Lua-таблица для безопасной записи любых кастомных полей игрока/ИИ.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>layer</code></td>
+<td style="text-align: left;"><code>int</code></td>
+<td style="text-align: left;">Слой отображения (Z-индекс). Чем выше число, тем позже отрисуется объект (будет поверх остальных).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>color</code></td>
+<td style="text-align: left;"><code>table</code></td>
+<td style="text-align: left;">Текущий цвет в формате таблицы <code>{r = 255, g = 255, b = 255, a = 255}</code>.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>isVisible</code></td>
+<td style="text-align: left;"><code>boolean</code></td>
+<td style="text-align: left;">Видимость объекта на экране (<code>true</code>/<code>false</code>).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>mirroredX</code></td>
+<td style="text-align: left;"><code>boolean</code></td>
+<td style="text-align: left;">Включает зеркальное отражение объекта по горизонтали.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>mirroredY</code></td>
+<td style="text-align: left;"><code>boolean</code></td>
+<td style="text-align: left;">Включает зеркальное отражение объекта по вертикали.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>name</code></td>
+<td style="text-align: left;"><code>string</code></td>
+<td style="text-align: left;">Имя объекта, используемое для последующего поиска по дереву нод.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>tag</code></td>
+<td style="text-align: left;"><code>string</code></td>
+<td style="text-align: left;">Дополнительный тег. <em>Внимание: свойство является устаревшим и будет удалено в будущих версиях.</em></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_2">Методы управления и жизненного цикла</h2>
+<h3 id="gameobjectremove">GameObject:remove</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">remove</span><span class="p">()</span>
 </span></code></pre></div>
-Вы можете собирать сложные деревья вложенностей, параметры по типу <code>isVisible</code> автоматически повлияют на дочерних объектов.</p>
-<h2 id="gameobjectfindstring-nameortag-gameobject">GameObject:find(string nameOrTag) -&gt; GameObject</h2>
-<p>Метод ищет объект среди наследников объекта от которого был вызван метод, при неудаче вернёт <code>false</code>.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">buffer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">a</span><span class="p">:</span><span class="nf">find</span><span class="p">(</span><span class="s2">"name"</span><span class="p">)</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kr">if</span><span class="w"> </span><span class="nv">buffer</span><span class="w"> </span><span class="kr">then</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="nv">buffer</span><span class="p">:</span><span class="nf">remove</span><span class="p">()</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="kr">end</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectclear">GameObject:clear()</h2>
-<p>Метод для полной очистки детей, он рекурсивно проходит по наследникам объекта(метод выше) и удаляет их оставляя только родителя.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">clear</span><span class="p">()</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectonstring-namefunction-callback">GameObject:on(string name,function callback)</h2>
-<p>Подпись на событие(со списком доступных событий для этого метода можно ознакомиться во вкладке Events), вы можете подписать объект на кастомное событие/событие движка и установить слушатель для конкретного объекта.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">rect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nv">a</span><span class="p">:</span><span class="nf">on</span><span class="p">(</span><span class="s2">"touch"</span><span class="p">,</span><span class="kr">function</span><span class="p">(</span><span class="nv">e</span><span class="p">)</span>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"great"</span><span class="p">)</span>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="kr">end</span><span class="p">)</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectoffstring-name">GameObject:off(string name)</h2>
-<p>Отписка объекта от события(метод выше).
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">off</span><span class="p">(</span><span class="s2">"touch"</span><span class="p">)</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectlookatnum-xnum-y">GameObject:lookAt(num x,num y)</h2>
-<p>Метод заставляющий объект смотреть в точку x,y.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">lookAt</span><span class="p">(</span><span class="mi">300</span><span class="p">,</span><span class="mi">300</span><span class="p">)</span>
-</span></code></pre></div></p>
-<h2 id="gameobjecttofront">GameObject:toFront()</h2>
-<p>Метод устанавливает максимально возможный слой объекта заставляя его рендерится над другими.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">toFront</span><span class="p">()</span>
-</span></code></pre></div></p>
-<h2 id="gameobjecttoback">GameObject:toBack()</h2>
-<p>Метод устанавливает максимально отрицательный слой объекта заставляя его рендерится под другими.
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">toBack</span><span class="p">()</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectsetcolorrgba">GameObject:setColor(r,g,b[,a])</h2>
-<p>Метод устанавливает цвет объекта,указывается в RGBA(0-255).
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">255</span><span class="p">)</span>
-</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="c1">--===--</span>
-</span><span id="__span-13-3"><a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a><span class="nv">a</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">150</span><span class="p">)</span>
-</span></code></pre></div></p>
-<h2 id="gameobjectsetcolorhex">GameObject:setColor(HEX)</h2>
-<p>Метод устанавливает цвет объекта,указывается в HEX(#00000).
-<div class="language-lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nv">a</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="s2">"#ff57"</span><span class="p">)</span>
-</span></code></pre></div></p>
-<h1 id="_1">Примечание</h1>
-<p>Этот модуль может изменяться по мере обновлений, в alpha версии недоступно больше половины функционала так как фреймворк находится в активной разработке и методы нужно проверять на работоспособность в разных комбинациях и условиях.</p>
+Полностью уничтожает объект, удаляет его из игрового мира, освобождает память, а также рекурсивно удаляет всех его дочерних наследников.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">box</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">rect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nv">box</span><span class="p">:</span><span class="nf">remove</span><span class="p">()</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="gameobjectclear">GameObject:clear</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">clear</span><span class="p">()</span>
+</span></code></pre></div>
+Рекурсивно уничтожает всех дочерних наследников текущего объекта, но оставляет сам объект-родитель нетронутым.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">-- Очистить весь слой игрового интерфейса</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nv">uiLayer</span><span class="p">:</span><span class="nf">clear</span><span class="p">()</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_3">Трансформация в пространстве</h2>
+<h3 id="gameobjectgetworldx">GameObject:getWorldX</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">getWorldX</span><span class="p">()</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает глобальную координату X объекта на экране (в системе координат игрового мира), полностью игнорируя смещения его родителей.</p>
+<h3 id="gameobjectgetworldy">GameObject:getWorldY</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">getWorldY</span><span class="p">()</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает глобальную координату Y объекта на экране, полностью игнорируя смещения его родителей.</p>
+<h3 id="gameobjectgetworldangle">GameObject:getWorldAngle</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">getWorldAngle</span><span class="p">()</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает абсолютный угол поворота объекта относительно игрового мира.</p>
+<h3 id="gameobjectlookat">GameObject:lookAt</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">lookAt</span><span class="p">(</span><span class="nv">x</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="p">)</span>
+</span></code></pre></div>
+Автоматически рассчитывает направление и поворачивает объект так, чтобы он смотрел на указанную точку с глобальными координатами <code>(x, y)</code>.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1">-- Заставить турель повернуться лицом к игроку в цикле update</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="nv">turret</span><span class="p">:</span><span class="nf">lookAt</span><span class="p">(</span><span class="nv">player</span><span class="p">.</span><span class="py">x</span><span class="p">,</span><span class="w"> </span><span class="nv">player</span><span class="p">.</span><span class="py">y</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_4">Иерархия и работа с поддеревьями (Ноды)</h2>
+<h3 id="gameobjectinsert">GameObject:insert</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">insert</span><span class="p">(</span><span class="nv">childGameObject</span><span class="p">)</span>
+</span></code></pre></div>
+Вставляет один объект внутрь другого. Объект, переданный в качестве аргумента, становится дочерним (<code>child</code>). </p>
+<div class="admonition info">
+<p class="admonition-title">Поведение вложенности</p>
+<p>Трансформации родителя (изменение <code>x</code>, <code>y</code>, <code>scale</code>, <code>angle</code>, <code>isVisible</code>) автоматически и каскадно применяются ко всем вложенным объектам. Это позволяет использовать пустые объекты типа <code>node</code> для группировки целых слоев игры.</p>
+</div>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">mainGroup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">node</span><span class="p">()</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="kd">local</span><span class="w"> </span><span class="nv">enemy</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">rect</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">)</span>
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a><span class="nv">mainGroup</span><span class="p">:</span><span class="nf">insert</span><span class="p">(</span><span class="nv">enemy</span><span class="p">)</span>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a><span class="nv">mainGroup</span><span class="p">.</span><span class="py">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">200</span><span class="w">     </span><span class="c1">-- Сместится и нода, и прямоугольник внутри неё</span>
+</span><span id="__span-10-6"><a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="nv">mainGroup</span><span class="p">:</span><span class="nf">remove</span><span class="p">()</span><span class="w">    </span><span class="c1">-- Будет удалена и нода, и вложенный враг</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="gameobjectfind">GameObject:find</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">find</span><span class="p">(</span><span class="nv">nameOrTag</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; GameObject or false</span>
+</span></code></pre></div>
+Производит глубокий рекурсивный поиск объекта по его имени (<code>.name</code>) или тегу среди своих дочерних наследников. Если объект не найден, метод вернёт <code>false</code>.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">target</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">gameMap</span><span class="p">:</span><span class="nf">find</span><span class="p">(</span><span class="s2">"player_spawn_point"</span><span class="p">)</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="kr">if</span><span class="w"> </span><span class="nv">target</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-12-3"><a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Точка спавна успешно найдена!"</span><span class="p">)</span>
+</span><span id="__span-12-4"><a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="kr">end</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_5">Сортировка слоев рендеринга</h2>
+<h3 id="gameobjecttofront">GameObject:toFront</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">toFront</span><span class="p">()</span>
+</span></code></pre></div>
+Перемещает объект на максимально высокий слой отображения среди элементов текущего контейнера, заставляя его визуализироваться поверх остальных объектов.</p>
+<h3 id="gameobjecttoback">GameObject:toBack</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">toBack</span><span class="p">()</span>
+</span></code></pre></div>
+Сдвигает объект на максимально глубокий отрицательный слой, заставляя его отображаться позади всех остальных элементов контейнера.</p>
+<hr />
+<h2 id="_6">Цвет и визуализация</h2>
+<h3 id="gameobjectsetcolor">GameObject:setColor</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="nv">r</span><span class="p">,</span><span class="w"> </span><span class="nv">g</span><span class="p">,</span><span class="w"> </span><span class="nv">b</span><span class="p">,</span><span class="w"> </span><span class="p">[</span><span class="nv">a</span><span class="p">])</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="nv">hexString</span><span class="p">)</span>
+</span></code></pre></div>
+Динамически изменяет цвет и прозрачность объекта. Метод является перегруженным и поддерживает два формата ввода.</p>
+<ul>
+<li><strong>Варианты вызова:</strong><ul>
+<li><code>r, g, b, a</code> (numbers) — компоненты цвета от <code>0</code> до <code>255</code>. Альфа-канал <code>a</code> является необязательным (по умолчанию <code>255</code>).</li>
+<li><code>hexString</code> (string) — строка цвета в формате HEX (например, <code>"#ff5733"</code> или сокращенный <code>"#ff57"</code>).</li>
+</ul>
+</li>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="c1">-- Установка цвета через RGBA</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="nv">hero</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">255</span><span class="p">,</span><span class="w"> </span><span class="mi">150</span><span class="p">)</span>
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="c1">-- Установка цвета через HEX строку</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="nv">hero</span><span class="p">:</span><span class="nf">setColor</span><span class="p">(</span><span class="s2">"#ff5733"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="events">Управление событиями (Events)</h2>
+<h3 id="gameobjecton">GameObject:on</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">on</span><span class="p">(</span><span class="nv">eventName</span><span class="p">,</span><span class="w"> </span><span class="nv">callback</span><span class="p">)</span>
+</span></code></pre></div>
+Подписывает объект на системное или кастомное игровое событие и регистрирует функцию-слушатель (<code>callback</code>).</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">button</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">display</span><span class="p">:</span><span class="nf">rect</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="mi">100</span><span class="p">,</span><span class="w"> </span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">50</span><span class="p">)</span>
+</span><span id="__span-18-2"><a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a><span class="nv">button</span><span class="p">:</span><span class="nf">on</span><span class="p">(</span><span class="s2">"touch"</span><span class="p">,</span><span class="w"> </span><span class="kr">function</span><span class="p">(</span><span class="nv">event</span><span class="p">)</span>
+</span><span id="__span-18-3"><a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Объект зафиксировал нажатие на экран!"</span><span class="p">)</span>
+</span><span id="__span-18-4"><a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a><span class="kr">end</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="gameobjectoff">GameObject:off</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="nv">GameObject</span><span class="p">:</span><span class="nf">off</span><span class="p">(</span><span class="nv">eventName</span><span class="p">)</span>
+</span></code></pre></div>
+Полностью отписывает объект от указанного события, удаляя зарегистрированного слушателя.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="nv">button</span><span class="p">:</span><span class="nf">off</span><span class="p">(</span><span class="s2">"touch"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<div class="admonition info">
+<p class="admonition-title">Примечание к Alpha-версии</p>
+<p>Поскольку фреймворк Override находится в стадии активной разработки, в текущей альфа-версии доступна только часть запланированного функционала. API может незначительно изменяться в обновлениях по мере тестирования стабильности методов в различных игровых условиях.</p>
+</div>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -1282,6 +2000,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
         
       </main>
       
@@ -1312,7 +2036,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>

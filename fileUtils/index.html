@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://github.io/mouse/">
+        <link rel="canonical" href="https://github.io/fileUtils/">
       
       
-        <link rel="prev" href="../timer/">
+        <link rel="prev" href="../events/">
       
       
-        <link rel="next" href="../override/">
+        <link rel="next" href="../mathUtils/">
       
       
         
@@ -25,7 +25,7 @@
     
     
       
-        <title>Управление мышью mouse - Override Documentation</title>
+        <title>Документация fileUtils - Override Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mouse" class="md-skip">
+        <a href="#fileutils" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Управление мышью mouse
+              Документация fileUtils
             
           </span>
         </div>
@@ -888,10 +888,39 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../fileUtils/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 8c-2.21 0-4 1.79-4 4v8H4a2 2 0 0 1-2-2V6c0-1.11.89-2 2-2h6l2 2h8a2 2 0 0 1 2 2v2.17l-1.59-1.58-.58-.59zm8 6v7c0 1.11-.89 2-2 2h-6a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h4zm-2 .83L18.17 12H18v3h3z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    Файлы (fileUtils)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -909,6 +938,237 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Работа с директориями
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Работа с директориями">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsgetdir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:getDir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilscreatedir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:createDir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsdeleterecursive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:deleteRecursive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilslist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:list
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsisdirectory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:isDirectory
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Чтение и Запись файлов
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Чтение и Запись файлов">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fileutilswrite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:write
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsread" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:read
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Управление файлами и метаданные
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Управление файлами и метаданные">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsexists" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:exists
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsdelete" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:delete
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsgetfilesize" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:getFileSize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsgetmetadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:getMetadata
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Копирование и Перемещение
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Копирование и Перемещение">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fileutilscopy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:copy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsmove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:move
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1038,39 +1298,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 1.07C7.05 1.56 4 4.92 4 9h7m-7 6a8 8 0 0 0 8 8 8 8 0 0 0 8-8v-4H4m9-9.93V9h7c0-4.08-3.06-7.44-7-7.93"/></svg>
-  
-  <span class="md-ellipsis">
-    
-  
-    Мышь (mouse)
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../mouse/" class="md-nav__link">
         
   
   
@@ -1088,143 +1319,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Содержание">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Содержание
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Получение координат курсора
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Получение координат курсора">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mousegetx" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        mouse:getX
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mousegety" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        mouse:getY
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Изменение позиции курсора
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Изменение позиции курсора">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mousesetposition" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        mouse:setPosition
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Управление видимостью курсора
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Управление видимостью курсора">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mousehide" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        mouse:hide
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mouseshow" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        mouse:show
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#mouseishidden" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        mouse:isHidden
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1327,19 +1421,19 @@
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Получение координат курсора
+        Работа с директориями
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Получение координат курсора">
+    <nav class="md-nav" aria-label="Работа с директориями">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mousegetx" class="md-nav__link">
+  <a href="#fileutilsgetdir" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mouse:getX
+        fileUtils:getDir
       
     </span>
   </a>
@@ -1347,10 +1441,43 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mousegety" class="md-nav__link">
+  <a href="#fileutilscreatedir" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mouse:getY
+        fileUtils:createDir
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsdeleterecursive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:deleteRecursive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilslist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:list
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsisdirectory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:isDirectory
       
     </span>
   </a>
@@ -1366,19 +1493,30 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Изменение позиции курсора
+        Чтение и Запись файлов
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Изменение позиции курсора">
+    <nav class="md-nav" aria-label="Чтение и Запись файлов">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mousesetposition" class="md-nav__link">
+  <a href="#fileutilswrite" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mouse:setPosition
+        fileUtils:write
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsread" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:read
       
     </span>
   </a>
@@ -1394,19 +1532,19 @@
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Управление видимостью курсора
+        Управление файлами и метаданные
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Управление видимостью курсора">
+    <nav class="md-nav" aria-label="Управление файлами и метаданные">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mousehide" class="md-nav__link">
+  <a href="#fileutilsexists" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mouse:hide
+        fileUtils:exists
       
     </span>
   </a>
@@ -1414,10 +1552,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mouseshow" class="md-nav__link">
+  <a href="#fileutilsdelete" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mouse:show
+        fileUtils:delete
       
     </span>
   </a>
@@ -1425,10 +1563,60 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#mouseishidden" class="md-nav__link">
+  <a href="#fileutilsgetfilesize" class="md-nav__link">
     <span class="md-ellipsis">
       
-        mouse:isHidden
+        fileUtils:getFileSize
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsgetmetadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:getMetadata
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Копирование и Перемещение
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Копирование и Перемещение">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fileutilscopy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:copy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fileutilsmove" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        fileUtils:move
       
     </span>
   </a>
@@ -1457,76 +1645,164 @@
 
 
 
-<h1 id="mouse">Модуль mouse</h1>
-<p>Модуль <code>mouse</code> доступен в глобальном пространстве имён любой сцены и предоставляет инструменты для прямого управления курсором мыши, изменения его координат и настройки видимости в игровом окне движка <strong>Override</strong>.</p>
+<h1 id="fileutils">Модуль fileUtils</h1>
+<p>Модуль <code>fileUtils</code> предоставляет мощный API для работы с файловой системой вашего проекта в движке <strong>Override</strong>. Он позволяет управлять директориями, сохранять файлы конфигураций, кэшировать временные данные, а также перемещать, удалять и копировать ресурсы игры.</p>
 <hr />
-<h2 id="_1">Получение координат курсора</h2>
-<h3 id="mousegetx">mouse:getX</h3>
-<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">getX</span><span class="p">()</span><span class="w"> </span><span class="c1">--&gt; number</span>
+<h2 id="_1">Работа с директориями</h2>
+<h3 id="fileutilsgetdir">fileUtils:getDir</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">getDir</span><span class="p">(</span><span class="nv">dirType</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; string</span>
 </span></code></pre></div>
-Возвращает текущую координату курсора мыши по оси X в пределах игрового окна.</p>
-<ul>
-<li><strong>Пример использования:</strong>
-    <div class="language-lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">mouseX</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mouse</span><span class="p">:</span><span class="nf">getX</span><span class="p">()</span>
-</span></code></pre></div></li>
-</ul>
-<h3 id="mousegety">mouse:getY</h3>
-<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">getY</span><span class="p">()</span><span class="w"> </span><span class="c1">--&gt; number</span>
-</span></code></pre></div>
-Возвращает текущую координату курсора мыши по оси Y в пределах игрового окна.</p>
-<ul>
-<li><strong>Пример использования:</strong>
-    <div class="language-lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">mouseY</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">mouse</span><span class="p">:</span><span class="nf">getY</span><span class="p">()</span>
-</span></code></pre></div></li>
-</ul>
-<hr />
-<h2 id="_2">Изменение позиции курсора</h2>
-<h3 id="mousesetposition">mouse:setPosition</h3>
-<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">setPosition</span><span class="p">(</span><span class="nv">x</span><span class="p">,</span><span class="w"> </span><span class="nv">y</span><span class="p">)</span>
-</span></code></pre></div>
-Принудительно перемещает (телепортирует) курсор мыши в указанную точку игрового окна.</p>
+Возвращает абсолютный путь к запрашиваемому типу системной папки. Путь всегда оканчивается на обратный слэш <code>\</code>.</p>
 <ul>
 <li><strong>Аргументы:</strong><ul>
-<li><code>x</code> (number) — Новая позиция курсора по оси X.</li>
-<li><code>y</code> (number) — Новая позиция курсора по оси Y.</li>
+<li><code>dirType</code> (string) — Тип папки. Может принимать значения:<ul>
+<li><code>"sandbox"</code> — изолированная папка проекта на диске. Генерируется автоматически, используйте её для сохранений (сейвов) вашей игры.</li>
+<li><code>"project"</code> — корневая папка вашего проекта, где находится файл <code>main.lua</code>. Все базовые ресурсы игры берутся отсюда.</li>
+<li><code>"temporary"</code> — папка для кэша и временных файлов.</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><strong>Пример использования:</strong>
-    <div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1">-- Сместить курсор в точку (200, 200) в окне</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">setPosition</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="w"> </span><span class="mi">200</span><span class="p">)</span>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">sandbox</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">getDir</span><span class="p">(</span><span class="s2">"sandbox"</span><span class="p">)</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">write</span><span class="p">(</span><span class="nv">sandbox</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">"save_slot_1.txt"</span><span class="p">,</span><span class="w"> </span><span class="s2">"score: 1500"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilscreatedir">fileUtils:createDir</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">createDir</span><span class="p">(</span><span class="nv">path</span><span class="p">)</span>
+</span></code></pre></div>
+Создает новую папку или целое дерево вложенных папок по указанному пути.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1">-- Создание одной папки</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">createDir</span><span class="p">(</span><span class="s2">"myFolder"</span><span class="p">)</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1">-- Создание вложенной структуры за один вызов</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">createDir</span><span class="p">(</span><span class="s2">"saves/profiles/player1"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilsdeleterecursive">fileUtils:deleteRecursive</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">deleteRecursive</span><span class="p">(</span><span class="nv">path</span><span class="p">)</span>
+</span></code></pre></div>
+Рекурсивно удаляет целевую папку вместе со всем её содержимым (всеми файлами и подпапками). <strong>Внимание:</strong> операция необратима.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">deleteRecursive</span><span class="p">(</span><span class="s2">"old_cache_folder"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilslist">fileUtils:list</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">list</span><span class="p">(</span><span class="nv">path</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; table</span>
+</span></code></pre></div>
+Сканирует указанную директорию и возвращает массив (таблицу Lua) со всеми элементами, находящимися внутри этой папки.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kr">for</span><span class="w"> </span><span class="nv">k</span><span class="p">,</span><span class="w"> </span><span class="nv">v</span><span class="w"> </span><span class="kr">in</span><span class="w"> </span><span class="nb">pairs</span><span class="p">(</span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">list</span><span class="p">(</span><span class="s2">"myFolder"</span><span class="p">))</span><span class="w"> </span><span class="kr">do</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="nv">k</span><span class="p">,</span><span class="w"> </span><span class="nv">v</span><span class="p">)</span><span class="w"> </span><span class="c1">-- Выведет имена всех файлов и папок внутри "myFolder"</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="kr">end</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilsisdirectory">fileUtils:isDirectory</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">isDirectory</span><span class="p">(</span><span class="nv">filePath</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; boolean</span>
+</span></code></pre></div>
+Проверяет, является ли объект по указанному пути папкой. Возвращает <code>true</code>, если это папка, и <code>false</code>, если это файл.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="kr">if</span><span class="w"> </span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">isDirectory</span><span class="p">(</span><span class="s2">"assets/textures"</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Это папка с текстурами"</span><span class="p">)</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="kr">else</span>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Это отдельный файл или объект не существует"</span><span class="p">)</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="kr">end</span>
 </span></code></pre></div></li>
 </ul>
 <hr />
-<h2 id="_3">Управление видимостью курсора</h2>
-<h3 id="mousehide">mouse:hide</h3>
-<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">hide</span><span class="p">()</span>
+<h2 id="_2">Чтение и Запись файлов</h2>
+<h3 id="fileutilswrite">fileUtils:write</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">write</span><span class="p">(</span><span class="nv">filePath</span><span class="p">,</span><span class="w"> </span><span class="nv">content</span><span class="p">)</span>
 </span></code></pre></div>
-Скрывает системный курсор мыши в пределах игрового окна. Это полезно при реализации собственного кастомного игрового прицела или спрайтового курсора.</p>
+Записывает текстовое содержимое <code>content</code> в файл по пути <code>filePath</code>. Если файл по указанному пути отсутствует, метод создаст его автоматически.</p>
 <ul>
+<li><strong>Аргументы:</strong><ul>
+<li><code>filePath</code> (string) — Путь к файлу.</li>
+<li><code>content</code> (string) — Текст для записи.</li>
+</ul>
+</li>
 <li><strong>Пример использования:</strong>
-    <div class="language-lua highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">hide</span><span class="p">()</span>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">write</span><span class="p">(</span><span class="s2">"config.json"</span><span class="p">,</span><span class="w"> </span><span class="s1">'{"volume": 80, "fullscreen": true}'</span><span class="p">)</span>
 </span></code></pre></div></li>
 </ul>
-<h3 id="mouseshow">mouse:show</h3>
-<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">show</span><span class="p">()</span>
+<h3 id="fileutilsread">fileUtils:read</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">read</span><span class="p">(</span><span class="nv">filePath</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; string</span>
 </span></code></pre></div>
-Делает системный курсор мыши снова видимым для пользователя.</p>
+Высокоуровневый метод для быстрого чтения данных. Автоматически открывает файл, считывает всё его содержимое в строку, корректно закрывает поток и возвращает прочитанное значение.</p>
 <ul>
 <li><strong>Пример использования:</strong>
-    <div class="language-lua highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">show</span><span class="p">()</span>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">settingsData</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">read</span><span class="p">(</span><span class="s2">"conf.lua"</span><span class="p">)</span>
+</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="nb">print</span><span class="p">(</span><span class="nv">settingsData</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; Выведет текст файла настроек</span>
 </span></code></pre></div></li>
 </ul>
-<h3 id="mouseishidden">mouse:isHidden</h3>
-<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="nv">mouse</span><span class="p">:</span><span class="nf">isHidden</span><span class="p">()</span><span class="w"> </span><span class="c1">--&gt; boolean</span>
+<hr />
+<h2 id="_3">Управление файлами и метаданные</h2>
+<h3 id="fileutilsexists">fileUtils:exists</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">exists</span><span class="p">(</span><span class="nv">filePath</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; boolean</span>
 </span></code></pre></div>
-Проверяет текущее состояние видимости курсора. Возвращает <code>true</code>, если курсор в данный момент скрыт, и <code>false</code>, если он отображается на экране.</p>
+Проверяет физическое существование файла или папки по указанному пути.</p>
 <ul>
 <li><strong>Пример использования:</strong>
-    <div class="language-lua highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="kr">if</span><span class="w"> </span><span class="nv">mouse</span><span class="p">:</span><span class="nf">isHidden</span><span class="p">()</span><span class="w"> </span><span class="kr">then</span>
-</span><span id="__span-11-2"><a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Курсор скрыт движком"</span><span class="p">)</span>
-</span><span id="__span-11-3"><a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="kr">else</span>
-</span><span id="__span-11-4"><a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Курсор отображается"</span><span class="p">)</span>
-</span><span id="__span-11-5"><a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="kr">end</span>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="kr">if</span><span class="w"> </span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">exists</span><span class="p">(</span><span class="s2">"save.dat"</span><span class="p">)</span><span class="w"> </span><span class="kr">then</span>
+</span><span id="__span-15-2"><a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Файл сохранения найден!"</span><span class="p">)</span>
+</span><span id="__span-15-3"><a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="kr">else</span>
+</span><span id="__span-15-4"><a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="w">    </span><span class="nb">print</span><span class="p">(</span><span class="s2">"Файл сохранения не существует. Начинаем новую игру."</span><span class="p">)</span>
+</span><span id="__span-15-5"><a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a><span class="kr">end</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilsdelete">fileUtils:delete</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">delete</span><span class="p">(</span><span class="nv">filePath</span><span class="p">)</span>
+</span></code></pre></div>
+Удаляет одиночный файл по указанному пути.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">delete</span><span class="p">(</span><span class="s2">"temporary_log.txt"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilsgetfilesize">fileUtils:getFileSize</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">getFileSize</span><span class="p">(</span><span class="nv">filePath</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; number</span>
+</span></code></pre></div>
+Возвращает точный размер файла в байтах.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">sizeInBytes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">getPercentClamp</span><span class="p">(</span><span class="s2">"assets/music/theme.ogg"</span><span class="p">)</span>
+</span><span id="__span-19-2"><a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a><span class="nb">print</span><span class="p">(</span><span class="s2">"Размер трека: "</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="nv">sizeInBytes</span><span class="w"> </span><span class="o">..</span><span class="w"> </span><span class="s2">" байт"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilsgetmetadata">fileUtils:getMetadata</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">getMetadata</span><span class="p">(</span><span class="nv">path</span><span class="p">)</span><span class="w"> </span><span class="c1">--&gt; table</span>
+</span></code></pre></div>
+Возвращает таблицу Lua, содержащую подробные метаданные объекта (время создания, время изменения, права доступа и т.д.). Работает как для файлов, так и для папок.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="kd">local</span><span class="w"> </span><span class="nv">meta</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">getMetadata</span><span class="p">(</span><span class="s2">"myFile.txt"</span><span class="p">)</span>
+</span><span id="__span-21-2"><a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="c1">-- Структура зависит от реализации вашей OS (например, meta.modified, meta.created)</span>
+</span></code></pre></div></li>
+</ul>
+<hr />
+<h2 id="_4">Копирование и Перемещение</h2>
+<h3 id="fileutilscopy">fileUtils:copy</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">copy</span><span class="p">(</span><span class="nv">source</span><span class="p">,</span><span class="w"> </span><span class="nv">target</span><span class="p">)</span>
+</span></code></pre></div>
+Копирует файл или папку из исходного пути <code>source</code> в целевое место назначения <code>target</code>.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-23-1"><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">copy</span><span class="p">(</span><span class="s2">"project/default_config.ini"</span><span class="p">,</span><span class="w"> </span><span class="s2">"sandbox/user_config.ini"</span><span class="p">)</span>
+</span></code></pre></div></li>
+</ul>
+<h3 id="fileutilsmove">fileUtils:move</h3>
+<p><div class="language-lua highlight"><pre><span></span><code><span id="__span-24-1"><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">move</span><span class="p">(</span><span class="nv">source</span><span class="p">,</span><span class="w"> </span><span class="nv">target</span><span class="p">)</span>
+</span></code></pre></div>
+Перемещает (или переименовывает) объект из пути <code>source</code> в <code>target</code>. Из исходного местоположения объект удаляется.</p>
+<ul>
+<li><strong>Пример использования:</strong>
+    <div class="language-lua highlight"><pre><span></span><code><span id="__span-25-1"><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="c1">-- Перемещение файла в другую папку</span>
+</span><span id="__span-25-2"><a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a><span class="nv">fileUtils</span><span class="p">:</span><span class="nf">move</span><span class="p">(</span><span class="s2">"sandbox/temp_save.dat"</span><span class="p">,</span><span class="w"> </span><span class="s2">"sandbox/saves/slot1.dat"</span><span class="p">)</span>
 </span></code></pre></div></li>
 </ul>
 
